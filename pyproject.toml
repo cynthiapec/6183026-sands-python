@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signals-and-systems"
+version = "0.1.0"
+description = "Signal functions for unit step and sine wave signals"
+authors = [
+    {name = "Cynthia Echeverri", email = "cecheverricord@tudelft.nl"}
+]
+dependencies = ["numpy"]
